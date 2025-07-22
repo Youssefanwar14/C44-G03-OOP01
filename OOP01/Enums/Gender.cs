@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP01.UserdefinedDataTypes
+namespace OOP01.Enums
 {
-    internal enum EnumA
+    public enum Gender
     {
-  
-        label1 = 1,
-        label2,
-        label3,
-        label4
+        Male,
+        Female
     }
 }
