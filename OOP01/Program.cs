@@ -1,4 +1,5 @@
-﻿using OOP01.UserdefinedDataTypes;
+﻿using OOP01.Enums;
+using OOP01.UserdefinedDataTypes;
 
 namespace OOP01
 {
@@ -6,9 +7,13 @@ namespace OOP01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            CLassA cLassA = new CLassA();
-            
+            #region Question 1
+            Console.WriteLine("Days of the Week: ");
+            foreach (WeekDays day in Enum.GetValues(typeof(WeekDays)))
+            {
+                Console.WriteLine(day);
+            } 
+            #endregion
         }
     }
 }
